@@ -37,8 +37,24 @@ try {
         Remove-Item $ModZipPath -Force
     }
 
-    # Run Compress-Archive (Native PowerShell zipping)
-    Compress-Archive -Path "modinfo.json", "assets" -DestinationPath $ModZipPath -Force
+    # Create a clean temporary directory for building the zip
+    $TempBuildDir = Join-Path $ReleaseDir "temp_build"
+    if (Test-Path $TempBuildDir) {
+        Remove-Item $TempBuildDir -Recurse -Force | Out-Null
+    }
+    New-Item -ItemType Directory -Path $TempBuildDir | Out-Null
+
+    # Copy files/folders to the temporary build dir
+    Copy-Item -Path "modinfo.json" -Destination $TempBuildDir -Force
+    Copy-Item -Path "assets" -Destination $TempBuildDir -Recurse -Force
+
+    # Run ZipFile from .NET (generates valid ZIP headers with forward slashes '/' compatible with Linux!)
+    Add-Type -AssemblyName System.IO.Compression.FileSystem
+    [System.IO.Compression.ZipFile]::CreateFromDirectory($TempBuildDir, $ModZipPath)
+
+    # Clean up temp build folder
+    Remove-Item $TempBuildDir -Recurse -Force | Out-Null
+    
     Write-Output "Successfully packaged mod into: $ModZipPath"
 }
 finally {
