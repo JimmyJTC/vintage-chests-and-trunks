@@ -37,11 +37,8 @@ try {
         Remove-Item $ModZipPath -Force
     }
 
-    # Run 7z
-    # a: add to archive
-    # -tzip: zip format
-    # modinfo.json assets: files to include
-    & 7z a -tzip $ModZipPath modinfo.json assets
+    # Run Compress-Archive (Native PowerShell zipping)
+    Compress-Archive -Path "modinfo.json", "assets" -DestinationPath $ModZipPath -Force
     Write-Output "Successfully packaged mod into: $ModZipPath"
 }
 finally {
