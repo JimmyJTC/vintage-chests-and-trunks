@@ -1,0 +1,27 @@
+{
+  "block-normal-generic-chest-oak-*": "Eichentruhe",
+  "block-normal-generic-chest-birch-*": "Birkentruhe",
+  "block-normal-generic-chest-pine-*": "Kieferntruhe",
+  "block-normal-generic-chest-redwood-*": "Mammutbaumtruhe",
+  "block-normal-generic-chest-ebony-*": "Ebenholztruhe",
+  "block-normal-generic-chest-larch-*": "Lärchentruhe",
+  "block-normal-generic-chest-kapok-*": "Kapokbaumtruhe",
+  "block-normal-generic-chest-maple-*": "Ahorntruhe",
+  "block-normal-generic-chest-purpleheart-*": "Amaranttruhe",
+  "block-normal-generic-chest-walnut-*": "Walnusstruhe",
+  "block-normal-generic-chest-baldcypress-*": "Sumpfzypressentruhe",
+  "block-normal-generic-chest-acacia-*": "Akazientruhe",
+
+  "block-normal-generic-trunk-oak-*": "Eichenkiste",
+  "block-normal-generic-trunk-birch-*": "Birkenkiste",
+  "block-normal-generic-trunk-pine-*": "Kiefernkiste",
+  "block-normal-generic-trunk-redwood-*": "Mammutbaumkiste",
+  "block-normal-generic-trunk-ebony-*": "Ebenholzkiste",
+  "block-normal-generic-trunk-larch-*": "Lärchenkiste",
+  "block-normal-generic-trunk-kapok-*": "Kapokbaumkiste",
+  "block-normal-generic-trunk-maple-*": "Ahornkiste",
+  "block-normal-generic-trunk-purpleheart-*": "Amarantkiste",
+  "block-normal-generic-trunk-walnut-*": "Walnusskiste",
+  "block-normal-generic-trunk-baldcypress-*": "Sumpfzypressenkiste",
+  "block-normal-generic-trunk-acacia-*": "Akazienkiste"
+}

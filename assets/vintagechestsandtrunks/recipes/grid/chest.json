@@ -1,0 +1,16 @@
+[
+	{
+		"ingredientPattern": "WNW,WWW,WWW",
+		"ingredients": {
+			"W": { "type": "item", "code": "game:plank-{wood}" },
+			"N": { "type": "item", "code": "game:metalnailsandstrips-{metal}" }
+		},
+		"allowedVariants": {
+			"wood": ["oak", "birch", "pine", "redwood", "ebony", "larch", "kapok", "maple", "purpleheart", "walnut", "baldcypress", "acacia"],
+			"metal": ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel", "electrum" ]
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "vintagechestsandtrunks:chest-{wood}-east", "attributes": { "type": "normal-generic" } }
+	}
+]

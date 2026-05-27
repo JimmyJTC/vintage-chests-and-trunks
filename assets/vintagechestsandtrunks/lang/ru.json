@@ -1,0 +1,27 @@
+{
+  "block-normal-generic-chest-oak-*": "Дубовый сундук",
+  "block-normal-generic-chest-birch-*": "Берёзовый сундук",
+  "block-normal-generic-chest-pine-*": "Сосновый сундук",
+  "block-normal-generic-chest-redwood-*": "Секвойевый сундук",
+  "block-normal-generic-chest-ebony-*": "Эбеновый сундук",
+  "block-normal-generic-chest-larch-*": "Лиственничный сундук",
+  "block-normal-generic-chest-kapok-*": "Капоковый сундук",
+  "block-normal-generic-chest-maple-*": "Кленовый сундук",
+  "block-normal-generic-chest-purpleheart-*": "Амарантовый сундук",
+  "block-normal-generic-chest-walnut-*": "Ореховый сундук",
+  "block-normal-generic-chest-baldcypress-*": "Кипарисовый сундук",
+  "block-normal-generic-chest-acacia-*": "Акациевый сундук",
+
+  "block-normal-generic-trunk-oak-*": "Большой дубовый сундук",
+  "block-normal-generic-trunk-birch-*": "Большой берёзовый сундук",
+  "block-normal-generic-trunk-pine-*": "Большой сосновый сундук",
+  "block-normal-generic-trunk-redwood-*": "Большой секвойевый сундук",
+  "block-normal-generic-trunk-ebony-*": "Большой эбеновый сундук",
+  "block-normal-generic-trunk-larch-*": "Большой лиственничный сундук",
+  "block-normal-generic-trunk-kapok-*": "Большой капоковый сундук",
+  "block-normal-generic-trunk-maple-*": "Большой кленовый сундук",
+  "block-normal-generic-trunk-purpleheart-*": "Большой амарантовый сундук",
+  "block-normal-generic-trunk-walnut-*": "Большой ореховый сундук",
+  "block-normal-generic-trunk-baldcypress-*": "Большой кипарисовый сундук",
+  "block-normal-generic-trunk-acacia-*": "Большой акациевый сундук"
+}

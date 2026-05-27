@@ -1,0 +1,23 @@
+# WoodTypedChests - Git Ignore
+
+# Mod Release Archives
+/release/
+/snapshots/
+/releases/
+*.zip
+
+# IDE/Editor files
+.vs/
+.antigravitycli/
+*.user
+*.suo
+*.userprefs
+
+# Compilations (if any C# added in future)
+bin/
+obj/
+
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store

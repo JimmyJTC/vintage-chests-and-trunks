@@ -1,0 +1,12 @@
+{
+  "type": "Content",
+  "modid": "vintagechestsandtrunks",
+  "name": "Vintage Chests & Trunks: Timber Selection",
+  "version": "1.0.0",
+  "description": "Makes chests and trunks display the color/texture of the wood they were crafted with using vanilla texture blending.",
+  "authors": [ "JimmyJTC", "Antigravity" ],
+  "website": "",
+  "dependencies": {
+    "game": "1.22.2"
+  }
+}

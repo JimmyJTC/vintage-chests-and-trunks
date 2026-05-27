@@ -1,0 +1,27 @@
+{
+  "block-normal-generic-chest-oak-*": "Oak Chest",
+  "block-normal-generic-chest-birch-*": "Birch Chest",
+  "block-normal-generic-chest-pine-*": "Pine Chest",
+  "block-normal-generic-chest-redwood-*": "Redwood Chest",
+  "block-normal-generic-chest-ebony-*": "Ebony Chest",
+  "block-normal-generic-chest-larch-*": "Larch Chest",
+  "block-normal-generic-chest-kapok-*": "Kapok Chest",
+  "block-normal-generic-chest-maple-*": "Maple Chest",
+  "block-normal-generic-chest-purpleheart-*": "Purpleheart Chest",
+  "block-normal-generic-chest-walnut-*": "Walnut Chest",
+  "block-normal-generic-chest-baldcypress-*": "Bald Cypress Chest",
+  "block-normal-generic-chest-acacia-*": "Acacia Chest",
+
+  "block-normal-generic-trunk-oak-*": "Oak Trunk",
+  "block-normal-generic-trunk-birch-*": "Birch Trunk",
+  "block-normal-generic-trunk-pine-*": "Pine Trunk",
+  "block-normal-generic-trunk-redwood-*": "Redwood Trunk",
+  "block-normal-generic-trunk-ebony-*": "Ebony Trunk",
+  "block-normal-generic-trunk-larch-*": "Larch Trunk",
+  "block-normal-generic-trunk-kapok-*": "Kapok Trunk",
+  "block-normal-generic-trunk-maple-*": "Maple Trunk",
+  "block-normal-generic-trunk-purpleheart-*": "Purpleheart Trunk",
+  "block-normal-generic-trunk-walnut-*": "Walnut Trunk",
+  "block-normal-generic-trunk-baldcypress-*": "Bald Cypress Trunk",
+  "block-normal-generic-trunk-acacia-*": "Acacia Trunk"
+}
